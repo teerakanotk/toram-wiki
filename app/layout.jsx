@@ -15,7 +15,7 @@ export const metadata = {
 const navbar = (
   <Navbar
     logo={<b>Toram Online</b>}
-    projectLink="https://github.com/teerakanotk/toram-wiki/tree/main"
+    projectLink="https://github.com/teerakanotk/toram-wiki/tree/main/app/docs"
   />
 );
 const footer = <Footer>© {new Date().getFullYear()} Toram Online.</Footer>;
