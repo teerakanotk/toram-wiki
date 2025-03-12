@@ -1,6 +1,10 @@
 // import type { MetaRecord } from "nextra";
 
 /* eslint-disable import/no-anonymous-default-export */
+const GUIDE = {
+  skill: "",
+};
+
 const SKILL = {
   "weapon-skill": "",
   "assist-skill": "",
@@ -9,8 +13,19 @@ const SKILL = {
 };
 
 const EQUIPMENT = {
-  weapon: "",
-  "sub-weapon": "",
+  "1h-sword": "",
+  "2h-sword": "",
+  bow: "",
+  bowgun: "",
+  knuckles: "",
+  "magic-device": "",
+  staff: "",
+  halberd: "",
+  katana: "",
+  dagger: "",
+  arrow: "",
+  shield: "",
+  "ninjutsu-scroll": "",
   armor: "",
   addittional: "",
   special: "",
@@ -40,9 +55,9 @@ export default {
     title: "Documentation",
     items: {
       index: "",
-      skill: { items: SKILL },
-      equipment: { items: EQUIPMENT },
+      guide: { items: GUIDE },
       item: { items: ITEM },
+      equipment: { items: EQUIPMENT },
     },
   },
   blog: {
